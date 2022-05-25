@@ -3,9 +3,9 @@
 #include <winsock2.h>
 #include <WS2tcpip.h>
 #include <process.h>
-SOCKET SetUpListener(const char* pcAddress, int nPort);
-void AcceptConnections(SOCKET ListeningSocket);
-bool EchoIncomingPackets(SOCKET sd);
-DWORD WINAPI EchoHandler(void* sd_);
-bool ShutdownConnection(SOCKET sd);
-int DoWinsock(const char* pcAddress, int nPort);
+SOCKET SetUpListener(CONST CHAR* pcAddress, int nPort);
+VOID AcceptConnections(SOCKET ListeningSocket);
+BOOL EchoIncomingPackets(SOCKET sd);
+DWORD WINAPI EchoHandler(VOID* sd_);
+BOOL ShutdownConnection(SOCKET sd);
+INT DoWinsock(CONST CHAR* pcAddress, INT nPort);

@@ -61,6 +61,7 @@ VOID AcceptConnections(SOCKET ListeningSocket)
 	INT nAddrSize = sizeof(sinRemote);
 	
 	while (1) {
+
 		SOCKET sd = accept(ListeningSocket, (sockaddr*)&sinRemote, &nAddrSize);
 		CHAR ip[INET_ADDRSTRLEN];
 		inet_ntop(AF_INET, &sinRemote.sin_addr, ip, INET_ADDRSTRLEN);

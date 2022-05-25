@@ -32,7 +32,7 @@ void Connect() {
 	// STEP -3 Fill the structure-------------------------------
 
 	struct sockaddr_in TCPServerAdd;
-	string ipAddress = "127.0.0.1";			// IP Address of the server
+	string ipAddress = "192.168.1.1";			// IP Address of the server
 	TCPServerAdd.sin_family = AF_INET;
 	TCPServerAdd.sin_port = htons(54000);
 	inet_pton(AF_INET, ipAddress.c_str(), &TCPServerAdd.sin_addr);

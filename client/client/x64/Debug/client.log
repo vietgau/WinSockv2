@@ -1,1 +1,4 @@
-﻿  client.vcxproj -> C:\Users\vuhon\OneDrive - actvn.edu.vn\works\Socket\WinSockv2\client\x64\Debug\client.exe
+﻿  client.cpp
+C:\Users\vuhon\OneDrive - actvn.edu.vn\works\Socket\WinSockv2\client\client\client.cpp(41,1): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\vuhon\OneDrive - actvn.edu.vn\works\Socket\WinSockv2\client\client\client.cpp(40,9): warning C4101: 'SenderBuffer': unreferenced local variable
+  client.vcxproj -> C:\Users\vuhon\OneDrive - actvn.edu.vn\works\Socket\WinSockv2\client\x64\Debug\client.exe
